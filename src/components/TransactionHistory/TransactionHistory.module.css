@@ -1,0 +1,57 @@
+.transactionHistory {
+  background-color: #00ff44;
+
+  border: 2px solid #000;
+  border-radius: 30px;
+
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 800px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: scale 300ms;
+}
+
+.transactionHistory:hover {
+  scale: 1.05;
+}
+
+.tableHead {
+  background: #0033ff;
+  font-size: 28px;
+  font-weight: 500;
+  border-radius: 30px;
+  height: 40px;
+  padding: 7px;
+  border: 2px solid #000;
+  color: aliceblue;
+}
+
+.tableData {
+  background: #ff0000;
+  font-size: 28px;
+}
+
+.tableData:hover {
+  
+  
+  color: black;
+}
+
+.tableDataCell {
+  width: 350px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+tr:nth-child(odd) {
+  background-color: #ff6f00;
+  color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color: #00c3ff80;
+  color: aliceblue;
+}
