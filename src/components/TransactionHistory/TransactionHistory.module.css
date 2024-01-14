@@ -1,5 +1,5 @@
 .transactionHistory {
-  background-color: #00ff44;
+  background-color: #00ccff;
 
   border: 2px solid #000;
   border-radius: 30px;
@@ -52,6 +52,6 @@ tr:nth-child(odd) {
 }
 
 tr:nth-child(even) {
-  background-color: #00c3ff80;
+  background-color: #7bff0080;
   color: aliceblue;
 }
